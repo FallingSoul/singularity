@@ -1,7 +1,7 @@
-#ifndef __SL_CPU_VERSION__
-#define __SL_CPU_VERSION__
+#ifndef __SL_CORE_CPU_VERSION__
+#define __SL_CORE_CPU_VERSION__
 
-#include <core/cpu/cpuid.hpp>
+#include <sl/core/cpu/cpuid.hpp>
 
 #if defined(SL_CPU_X86) || defined(SL_CPU_X64)
 
@@ -41,4 +41,4 @@ namespace sl
 #endif
 
 
-#endif //!__SL_CPU_VERSION__
+#endif //!__SL_CORE_CPU_VERSION__

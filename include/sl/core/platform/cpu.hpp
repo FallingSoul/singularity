@@ -1,7 +1,7 @@
-#ifndef __SL_PLATFORM_CPU__
-#define __SL_PLATFORM_CPU__
+#ifndef __SL_CORE_PLATFORM_CPU__
+#define __SL_CORE_PLATFORM_CPU__
 
-#include <core/platform/compiler.hpp>
+#include <sl/core/platform/compiler.hpp>
 
 #if defined(SL_CL_MSVC)
 #if defined(_M_IX86)
@@ -32,4 +32,4 @@
 #endif
 
 
-#endif //!__SL_PLATFORM_CPU__
+#endif //!__SL_CORE_PLATFORM_CPU__

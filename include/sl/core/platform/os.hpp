@@ -1,5 +1,5 @@
-#ifndef __SL_PLATFORM_OS__
-#define __SL_PLATFORM_OS__
+#ifndef __SL_CORE_PLATFORM_OS__
+#define __SL_CORE_PLATFORM_OS__
 
 
 // OS
@@ -78,4 +78,4 @@
 #endif
 
 
-#endif //!__SL_PLATFORM_OS__
+#endif //!__SL_CORE_PLATFORM_OS__

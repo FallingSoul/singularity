@@ -1,9 +1,9 @@
-#ifndef __SL_CPU_OTHER__
-#define __SL_CPU_OTHER__
+#ifndef __SL_CORE_CPU_OTHER__
+#define __SL_CORE_CPU_OTHER__
 
 
 
-#include <core/cpu/cpuid.hpp>
+#include <sl/core/cpu/cpuid.hpp>
 
 
 #if defined(SL_CPU_X86) || defined(SL_CPU_X64)
@@ -38,4 +38,4 @@ namespace sl
 
 #endif
 
-#endif //!__SL_CPU_OTHER__
+#endif //!__SL_CORE_CPU_OTHER__

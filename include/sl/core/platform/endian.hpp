@@ -1,5 +1,5 @@
-#ifndef __SL_PLATFORM_ENDIAN__
-#define __SL_PLATFORM_ENDIAN__
+#ifndef __SL_CORE_PLATFORM_ENDIAN__
+#define __SL_CORE_PLATFORM_ENDIAN__
 
 class slEndian
 {
@@ -16,4 +16,4 @@ class slEndian
     }
 };
 
-#endif //!__SL_PLATFORM_ENDIAN__
+#endif //!__SL_CORE_PLATFORM_ENDIAN__

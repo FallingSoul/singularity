@@ -1,10 +1,10 @@
-#ifndef __SL_PLATFORM_CPUID__
-#define __SL_PLATFORM_CPUID__
+#ifndef __SL_CORE_CPU_CPUID__
+#define __SL_CORE_CPU_CPUID__
 
 
 // https://www.cnblogs.com/DeeLMind/p/7535028.html
 
-#include <core/platform/cpu.hpp>
+#include <sl/core/platform/cpu.hpp>
 
 #if defined(SL_CPU_X86) || defined(SL_CPU_X64)
 
@@ -36,4 +36,4 @@ namespace sl
 }
 #endif
 
-#endif //!__SL_PLATFORM_CPUID__
+#endif //!__SL_CORE_CPU_CPUID__

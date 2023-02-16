@@ -1,5 +1,5 @@
-#ifndef __SL_PLATFORM_COMPILER__
-#define __SL_PLATFORM_COMPILER__
+#ifndef __SL_CORE_PLATFORM_COMPILER__
+#define __SL_CORE_PLATFORM_COMPILER__
 
 // Compiler
 #if defined(_MSC_VER)
@@ -121,4 +121,4 @@
 #define SL_CL_REVISION 0
 #endif
 
-#endif //!__SL_PLATFORM_COMPILER__
+#endif //!__SL_CORE_PLATFORM_COMPILER__

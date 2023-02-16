@@ -1,7 +1,7 @@
-#ifndef __SL_CPU_VENDORID__
-#define __SL_CPU_VENDORID__
+#ifndef __SL_CORE_CPU_VENDORID__
+#define __SL_CORE_CPU_VENDORID__
 
-#include <core/cpu/cpuid.hpp>
+#include <sl/core/cpu/cpuid.hpp>
 
 namespace sl
 {
@@ -36,4 +36,4 @@ namespace sl
     }
 }
 
-#endif //!__SL_CPU_VENDORID__
+#endif //!__SL_CORE_CPU_VENDORID__
