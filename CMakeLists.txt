@@ -17,14 +17,10 @@ endfunction()
 
 # search and show files
 slShowFiles(CORE ./include/sl/core SOURCE_LIST)
-slShowFiles(MAIN ./include/sl/main SOURCE_LIST)
 
-# show all files
-message("\n---- ALL ----")
-foreach(x ${SOURCE_LIST})
-    message("\t${x}")
-endforeach()
-message("---- ALL ----\n")
+
+set(SOURCE_LIST)
+slShowFiles(ALL ./include/sl/ SOURCE_LIST)
 
 include_directories(./include)
 
