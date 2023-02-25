@@ -2,6 +2,7 @@
 #define __SL_CORE_PLATFORM_HOST__
 
 #ifdef __STDC_HOSTED__
+#define SL_HOST 1
 
 // OS
 #if defined(_WIN64)
