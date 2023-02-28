@@ -17,6 +17,7 @@ endfunction()
 
 # search and show files
 slShowFiles(CORE ./include/sl/core SOURCE_LIST)
+slShowFiles(UNICON ./include/sl/unicon SOURCE_LIST)
 
 
 set(SOURCE_LIST)
