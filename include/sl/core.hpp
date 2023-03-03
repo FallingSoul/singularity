@@ -3,6 +3,7 @@
 
 #include <sl/core/platform.hpp>
 #include <sl/core/cpu.hpp>
+#include <sl/core/srcloc.hpp>
 #include <sl/core/error.hpp>
 
 
