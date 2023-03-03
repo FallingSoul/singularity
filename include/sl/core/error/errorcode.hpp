@@ -16,4 +16,4 @@ namespace sl
     }
 }
 
-#endif //!__SL_CORE_ERROR_ERROR__
+#endif //!__SL_CORE_ERROR_ERRORCODE__
