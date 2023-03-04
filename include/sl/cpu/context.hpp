@@ -1,5 +1,5 @@
-#ifndef __SL_CORE_CPU_CONTEXT__
-#define __SL_CORE_CPU_CONTEXT__
+#ifndef __SL_CPU_CONTEXT__
+#define __SL_CPU_CONTEXT__
 
 
 
@@ -21,7 +21,7 @@ namespace sl
                 private:
                 slCpuCtx()
                 {
-
+                    
                 }
             #if defined(SL_CPU_X86)
             #elif defined(SL_CPU_X64)
@@ -34,4 +34,4 @@ namespace sl
     }
 }
 
-#endif //!__SL_CORE_CPU_CONTEXT__
+#endif //!__SL_CPU_CONTEXT__

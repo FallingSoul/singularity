@@ -1,5 +1,5 @@
-#ifndef __SL_CORE_CPU_CPUID__
-#define __SL_CORE_CPU_CPUID__
+#ifndef __SL_CPU_CPUID__
+#define __SL_CPU_CPUID__
 
 
 #include <sl/core/platform.hpp>
@@ -59,4 +59,4 @@ namespace sl
     }
 }
 
-#endif //!__SL_CORE_CPU_CPUID__
+#endif //!__SL_CPU_CPUID__

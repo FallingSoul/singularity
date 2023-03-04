@@ -22,7 +22,7 @@ slShowFiles(MEMORY ./include/sl/memory SOURCE_LIST)
 
 
 set(SOURCE_LIST)
-slShowFiles(ALL ./include/sl/ SOURCE_LIST)
+slShowFiles(ALL ./include/sl SOURCE_LIST)
 
 include_directories(./include)
 

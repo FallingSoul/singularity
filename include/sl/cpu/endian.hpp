@@ -1,5 +1,5 @@
-#ifndef __SL_CORE_CPU_ENDIAN__
-#define __SL_CORE_CPU_ENDIAN__
+#ifndef __SL_CPU_ENDIAN__
+#define __SL_CPU_ENDIAN__
 
 namespace sl
 {
@@ -26,4 +26,4 @@ namespace sl
     }
 }
 
-#endif //!__SL_CORE_CPU_ENDIAN__
+#endif //!__SL_CPU_ENDIAN__

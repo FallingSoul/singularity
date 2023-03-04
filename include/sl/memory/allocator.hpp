@@ -1,0 +1,5 @@
+#ifndef __SL_MEMORY_ALLOCATOR__
+#define __SL_MEMORY_ALLOCATOR__
+
+
+#endif //!__SL_MEMORY_ALLOCATOR__
